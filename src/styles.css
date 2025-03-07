@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #335c67;
+  color: #540b0e;
+}
+/* dark-blue: #335c67
+light-yellow: #fff3b0
+orange: #e09f3e
+red: #9e2a2b
+ruby: #540b0e */
+
+header {
+  background-color: #e09f3e;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header > button {
+  background-color: #e09f3e;
+  border: none;
+  padding: 15px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+.leckerli-one-regular {
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}

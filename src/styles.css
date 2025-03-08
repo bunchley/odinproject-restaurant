@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: #335c67;
+  background-color: #e09f3e;
   color: #540b0e;
 }
 /* dark-blue: #335c67
@@ -25,6 +25,8 @@ header {
   border: none;
   padding: 15px;
 }
+.home-container {
+}
 
 .title-container {
   display: flex;
@@ -35,4 +37,33 @@ header {
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
+}
+
+.menu-container {
+  border: 5px solid #fff3b0;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  background-image: url("../images/RedHatChicken.svg");
+  /* height: 300px; */
+  /* width: 7px; */
+  width: 888px;
+  /* background-image: url("../images/RedHatChicken.svg"); */
+  padding: 15px;
+  /* border: 5px solid black; */
+}
+.description-container {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  font-size: 26px;
+  color: #540b0e;
+  padding: 20px;
+  width: 420px;
 }
